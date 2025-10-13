@@ -1,0 +1,13 @@
+.botao {
+    border: none;
+    background-color: var(--cor-verde-medio);
+}
+
+.botao:hover {
+    background-color: var(--cor-verde-escuro);
+}
+
+footer {
+    background-color: var(--cor-verde-medio);
+    color: white;
+}

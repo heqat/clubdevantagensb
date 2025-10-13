@@ -1,0 +1,28 @@
+* {
+    margin: 0;
+    border: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --cor-verde-claro: #9dd9d1;
+    --cor-verde-medio: #26ab9a;
+    --cor-verde-escuro: #00615c;
+
+    --fonte-roboto: 'Roboto', sans-serif;
+    --fonte-montserrat: 'Montserrat', sans-serif;
+}
+
+.teste {
+    
+    z-index: 1000;
+}
+
+.fonte-principal {
+    font-family: var(--fonte-montserrat);
+}
+
+.fonte-auxiliar {
+    font-family: var(--fonte-roboto);
+}
