@@ -1,7 +1,44 @@
 header {
-    background-color: var(--cor-verde-medio);
+  background-color: var(--cor-verde-medio);
+  position: sticky;
+  top: 0;
+  z-index: 1000;
 }
 
+/* Barra principal */
+.navbar {
+  display: flex;
+  align-items: center; 
+  min-height: 80px; 
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.15); 
+}
+
+/* Container interno da navbar */
+.navbar .container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between; 
+}
+
+/* Ajuste da logo */
+.navbar-brand img {
+  display: block;
+  height: 60px;
+  object-fit: contain;
+}
+
+
 .nav-link {
-    color: black;
+  font-weight: 500;
+  transition: opacity 0.2s ease;
+}
+
+.nav-link:hover {
+  opacity: 0.8;
+}
+
+.navbar-brand,
+.navbar-nav {
+  margin-bottom: 0 !important;
+  margin-top: 0 !important;
 }

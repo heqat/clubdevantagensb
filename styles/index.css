@@ -7,7 +7,86 @@
     background-color: var(--cor-verde-escuro);
 }
 
-footer {
-    background-color: var(--cor-verde-medio);
-    color: white;
+.hero-bg {
+  position: relative;
+  width: 100%;
+  min-height: auto
 }
+
+.hero-bg .overlay {
+  position: absolute;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.5); 
+  z-index: 1;
+  backdrop-filter: blur(2px); 
+}
+
+.hero-bg .container {
+  position: relative;
+  z-index: 2; /* garante que o texto fique acima do overlay */
+}
+
+.valorizacao {
+  background-color: #f9f9f9;
+}
+
+.card-valor {
+  border: none;
+  border-radius: 16px;
+  background-color: #fff;
+  transition: transform 0.25s ease, box-shadow 0.25s ease;
+}
+
+.card-valor:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.08);
+}
+
+.icon-valor {
+  font-size: 50px;
+  color: var(--cor-verde-medio);
+  margin-bottom: 1rem;
+}
+
+.titulo-valor {
+  font-weight: 600;
+  margin-bottom: 0.75rem;
+  color: #333;
+}
+
+.descricao-valor {
+  color: #555;
+  font-size: 1rem;
+  margin-bottom: 1.5rem;
+  text-align: justify;
+}
+
+.btn-valor {
+  background-color: var(--cor-verde-medio);
+  color: #fff;
+  border-radius: 12px;
+  padding: 0.6rem 1.5rem;
+  font-weight: 500;
+  transition: background-color 0.2s ease;
+}
+
+.btn-valor:hover {
+  background-color: var(--cor-verde-escuro);
+  color: #fff;
+}
+
+.linha-verde {
+  width: 60px;                
+  background-color: var(--cor-verde-medio);
+  border-radius: 50px;        
+  margin: 0.5rem auto 1.5rem; 
+}
+
+.linha-divisoria {
+  width: 100px;              
+  height: 5px;               
+  background-color: var(--cor-verde-medio);
+  border-radius: 50px;        
+  margin: 0.5rem auto 1.5rem; 
+}
+

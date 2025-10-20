@@ -11,9 +11,12 @@ export default function EmpresasParticipantes() {
             </Head>
             <main>
                 <Navbar />
-                <h2 className="text-center m-3 text-muted fonte-principal">Empresas participantes</h2>
+                <section className="container text-center my-5">
+    <h2 className="fonte-principal text-muted">EMPRESAS PARTICIPANTES</h2>
+    <div className="linha-verde"></div>
+  </section>
+                 <section className="container cards-empresas d-flex justify-content-center gap-4 flex-wrap">
 
-                <section className="container my-3 d-flex justify-content-center gap-3 flex-wrap">
                     
                     <Card nome={"IMET Cursos"} logo={"/imet-logo.jpeg"} whatsapp={"https://wa.me/5581991991095"} instagram={"https://www.instagram.com/imet.oficial/"} mapa={"https://goo.gl/maps/4QWPMTjFpLnW4rra6"} texto={"20% de desconto correspondente aos valores das mensalidades de cursos de Educação Profissional; Até 60% de desconto correspondente aos valores das mensalidades dos cursos de graduação e pós-graduação; Até 10% de desconto correspondente aos valores das mensalidades dos cursos técnicos."} />
                     <Card nome={"Arruda Diagnósticos"} logo={"/arruda-logo.jpeg"} whatsapp={"https://wa.me/5581982031145"} instagram={"https://www.instagram.com/arrudadiagnosticos/"} mapa={"https://goo.gl/maps/Xq2wi6jxn9cgCaYq9"} texto={"20% de desconto em toda a parte laboratorial, relacionada a exames clínicos."} />

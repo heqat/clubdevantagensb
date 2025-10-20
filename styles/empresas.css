@@ -1,0 +1,56 @@
+
+.fundo-claro {
+  background-color: #f9f9f9;
+}
+
+.linha-verde {
+  width: 70px;
+  height: 5px;
+  background-color: var(--cor-verde-medio);
+  border-radius: 50px;
+  margin: 0.5rem auto 2rem;
+}
+
+
+.cards-empresas {
+  padding-bottom: 3rem;
+}
+
+
+.card {
+  border-radius: 1.5rem;
+  transition: all 0.3s ease;
+  background-color: white;
+  overflow: hidden;
+}
+
+.card img {
+  border-radius: 1rem;
+  object-fit: contain;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 16px rgba(0, 128, 128, 0.2);
+}
+
+.card h3 {
+  font-size: 1.2rem;
+  font-weight: 600;
+}
+
+
+.card .fonte-auxiliar {
+  font-size: 0.95rem;
+  color: #555;
+  text-align: justify;
+}
+
+.card i {
+  transition: all 0.3s ease;
+}
+
+.card i:hover {
+  color: var(--cor-verde-medio);
+  transform: scale(1.1);
+}
