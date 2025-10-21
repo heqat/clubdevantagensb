@@ -25,7 +25,7 @@
 }
 
 .card img {
-  border-radius: 1rem;
+  border-radius: 3rem;
   object-fit: contain;
 }
 
@@ -53,4 +53,49 @@
 .card i:hover {
   color: var(--cor-verde-medio);
   transform: scale(1.1);
+}
+
+.barra-pesquisa {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 320px;
+  margin: 0 auto 3rem;
+  padding: 0.6rem 1rem;
+  background: rgba(255, 255, 255, 0.4);
+  border: 1px solid rgba(0, 0, 0, 0.05);
+  border-radius: 2rem;
+  backdrop-filter: blur(8px);
+  box-shadow: 0 4px 10px rgba(0, 128, 128, 0.08);
+  transition: all 0.3s ease;
+}
+
+.barra-pesquisa:hover {
+  box-shadow: 0 4px 14px rgba(0, 128, 128, 0.15);
+}
+
+.barra-pesquisa i {
+  color: var(--cor-verde-medio);
+  font-size: 1.2rem;
+  margin-right: 0.6rem;
+}
+
+.barra-pesquisa input {
+  border: none;
+  background: transparent;
+  outline: none;
+  width: 100%;
+  font-size: 1rem;
+  color: #333;
+}
+
+.barra-pesquisa input::placeholder {
+  color: #777;
+}
+
+/* Responsivo */
+@media (max-width: 600px) {
+  .barra-pesquisa {
+    width: 80%;
+  }
 }

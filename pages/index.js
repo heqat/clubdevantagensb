@@ -73,8 +73,11 @@ export default function Home() {
         </div>
       </div>
     </div>
+    
   </div>
-    <div className="linha-divisoria"></div>
+     <a className="d-flex justify-content-center text-center" href="/Lei n 1.424.2022 - Clube de Vantagens do Servidor.pdf" target="_blank">Veja a íntegra da Lei Municipal nº 1.424/2022, que instituiu o programa.</a>
+
+
 </section>
 
 
