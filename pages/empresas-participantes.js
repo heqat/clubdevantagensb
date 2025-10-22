@@ -14,7 +14,7 @@ export default function EmpresasParticipantes() {
     whatsapp: "https://wa.me/5581991991095",
     instagram: "https://www.instagram.com/imet.oficial/",
     mapa: "https://goo.gl/maps/4QWPMTjFpLnW4rra6",
-    texto: "20% de desconto correspondente aos valores das mensalidades de cursos de Educação Profissional; Até 60% de desconto correspondente aos valores das mensalidades dos cursos de graduação e pós-graduação; Até 10% de desconto correspondente aos valores das mensalidades dos cursos técnicos."
+    texto: "0% de desconto correspondente aos valores das mensalidades de cursos de Educação Profissional; Até 60% de desconto correspondente aos valores das mensalidades dos cursos de graduação e pós-graduação; Até 15% de desconto correspondente aos valores das mensalidades dos cursos técnicos."
   },
   {
     nome: "i9 Studio Personal",
@@ -33,36 +33,12 @@ export default function EmpresasParticipantes() {
     texto: "30% de desconto nas matrículas referente a natação, pilates e hidroginástica; 15% de desconto no pacote com 10 sessões de fisioterapia em pagamento à vista e 10% no cartão de crédito; 10% de desconto no pacote com 10 sessões, no atendimento em psicologia. Pagamento à vista ou cartão de crédito; R$ 10,00 (dez reais) de desconto referente à mensalidade de musculação."
   },
   {
-    nome: "Coluna Saudável",
-    logo: "/coluna-saudavel-logo.png",
-    whatsapp: "https://wa.me/5581996896215",
-    instagram: "https://www.instagram.com/colunasaudavelqrp/",
-    mapa: "https://goo.gl/maps/ojqShoMAseryJBjf6",
-    texto: "50% de desconto na avaliação para o tratamento de quiropraxia; 40% de desconto no valor dos pacotes de tratamento de quiropraxia, podendo ser pago à vista ou mediante cartão de crédito."
-  },
-  {
     nome: "Print Mais Brindes",
     logo: "/print-logo.png",
     whatsapp: "https://wa.me/5581981641344",
     instagram: "https://www.instagram.com/printmaisbrindes/",
     mapa: "https://goo.gl/maps/HvLbSJqP9s8xJAXV6",
     texto: "10% de desconto para brindes, canecas, copos e demais produtos gráficos."
-  },
-  {
-    nome: "Mercadinho de Demir",
-    logo: "/mercadinho-demir-logo.jpeg",
-    whatsapp: "https://wa.me/5581987510605",
-    instagram: "https://www.instagram.com/mercadinhode_demir/",
-    mapa: "https://goo.gl/maps/ahnDbwtTFtUAp7vR7",
-    texto: "3% de desconto a cada R$ 100,00 em compras, em qualquer tipo de produto disponível no supermercado."
-  },
-  {
-    nome: "Água de Cheiro",
-    logo: "/agua-de-cheiro-logo.jpg",
-    whatsapp: "https://wa.me/5581992564270",
-    instagram: "https://www.instagram.com/aguadecheirobezerrospe/",
-    mapa: "https://maps.app.goo.gl/ddf4X5ZpYaWJhPyVA",
-    texto: "15% de desconto em qualquer produto à vista, dinheiro ou pix; 10% de desconto nas compras realizadas nas demais modalidades (débito ou crédito)."
   },
   {
     nome: "Santé Fit",
@@ -86,7 +62,7 @@ export default function EmpresasParticipantes() {
     whatsapp: "https://wa.me/5581986779571",
     instagram: "https://www.instagram.com/laciacdiagnosticos/",
     mapa: "https://maps.app.goo.gl/oUrLmYd2tN8Pe5cZ7",
-    texto: "Serviços laboratoriais (análises clínicas, citologia, biopsia, teste paternidade, sexagem fetal, teste pezinho) - 10% desconto para pagamentos cartão crédito/débito e 30% desconto para pagamentos dinheiro ou pix; Serviço em estética (limpeza de pele) - 15% desconto para pagamento dinheiro ou pix."
+    texto: "Serviços laboratoriais (análises clínicas, citologia, biopsia, teste paternidade, sexagem fetal, teste pezinho) - 10% desconto para pagamentos cartão crédito/débito e 30% desconto para pagamentos dinheiro ou pix."
   },
   {
     nome: "Visual Ótica",
@@ -107,11 +83,11 @@ export default function EmpresasParticipantes() {
 
   {
     nome: "Lizze",
-    logo: "/lizze-logo.jpeg",
+    logo: "/lizze-logo.jpg",
     whatsapp: "https://wa.me/558197148314",
     instagram: "https://www.instagram.com/lizzeoficial/",
     mapa: "https://maps.app.goo.gl/mDdXdn7gsVJosfx67",
-    texto: "Descontos em exames laboratoriais, exceto biópsias e exames toxicológicos para detran: 10% de desconto em pagamentos com o cartão de crédito, 20% de desconto em pagamentos via pix ou dinheiro."
+    texto: "15% de desconto para compras à vista, 10% de desconto para compras realizadas nos cartões. (Este benefício não será cumulativo com outros descontos ou promoções oferecidas pela loja em períodos promocionais.)"
   }
 ];
 

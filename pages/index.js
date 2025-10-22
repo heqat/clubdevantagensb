@@ -30,7 +30,7 @@ export default function Home() {
     <div className="overlay"></div>
     <div className="container p-5 text-center position-relative">
       <Image src={logo} height={200} alt="Logo" />
-      <p className="mx-auto mt-3 fs-5 text-white fonte-auxiliar">
+      <p className="mx-auto mt-3 text-white fonte-auxiliar texto-responsivo">
          O programa Clube de Vantagens dos Servidores Públicos Municipais estabelece
         parcerias entre a Prefeitura de Bezerros e empresas e/ou instituições de diversos
         ramos de atuação, com a finalidade de oferecer descontos ou condições especiais na
@@ -70,14 +70,23 @@ export default function Home() {
           <Link href="/inscreva-sua-empresa" className="btn btn-valor">
             Inscrever minha empresa
           </Link>
+
+          
         </div>
+        
       </div>
+
+
     </div>
-    
+          <a
+  href="/Lei n 1.424.2022 - Clube de Vantagens do Servidor.pdf"
+  target="_blank"
+  className="link-lei"
+>
+  Veja a íntegra da Lei Municipal nº 1.424/2022, que instituiu o programa.
+</a>
   </div>
-     <a className="d-flex justify-content-center text-center" href="/Lei n 1.424.2022 - Clube de Vantagens do Servidor.pdf" target="_blank">Veja a íntegra da Lei Municipal nº 1.424/2022, que instituiu o programa.</a>
-
-
+  
 </section>
 
 

@@ -1,33 +1,48 @@
 .botao {
-    border: none;
-    background-color: var(--cor-verde-medio);
+  border: none;
+  background-color: var(--cor-verde-medio);
 }
 
 .botao:hover {
-    background-color: var(--cor-verde-escuro);
+  background-color: var(--cor-verde-escuro);
 }
 
+/* ================= HERO ================= */
 .hero-bg {
   position: relative;
   width: 100%;
-  min-height: auto
+  min-height: auto;
 }
 
 .hero-bg .overlay {
   position: absolute;
   inset: 0;
-  background: rgba(0, 0, 0, 0.5); 
+  background: rgba(0, 0, 0, 0.5);
   z-index: 1;
-  backdrop-filter: blur(2px); 
+  backdrop-filter: blur(2px);
 }
 
 .hero-bg .container {
   position: relative;
-  z-index: 2; /* garante que o texto fique acima do overlay */
+  z-index: 2;
+}
+
+.texto-responsivo {
+  font-size: clamp(1rem, 2vw, 1.1rem);
 }
 
 .valorizacao {
   background-color: #f9f9f9;
+}
+
+.valorizacao .row {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.valorizacao .col-md-6 {
+  display: flex;
+  align-items: stretch;
 }
 
 .card-valor {
@@ -35,6 +50,14 @@
   border-radius: 16px;
   background-color: #fff;
   transition: transform 0.25s ease, box-shadow 0.25s ease;
+  padding: 2rem;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  text-align: center;
+  height: 100%;
+  box-sizing: border-box;
 }
 
 .card-valor:hover {
@@ -50,15 +73,24 @@
 
 .titulo-valor {
   font-weight: 600;
-  margin-bottom: 0.75rem;
+  margin-bottom: 0.1rem;
   color: #333;
 }
 
-.descricao-valor {
+.linha-verde {
+  width: 60px;
+  background-color: var(--cor-verde-medio);
+  border-radius: 50px;
+  margin: 0.5rem auto 1.5rem;
+}
+
+.card-valor .descricao-valor {
+  flex-grow: 1;
   color: #555;
   font-size: 1rem;
   margin-bottom: 1.5rem;
   text-align: justify;
+  overflow-wrap: break-word;
 }
 
 .btn-valor {
@@ -68,6 +100,8 @@
   padding: 0.6rem 1.5rem;
   font-weight: 500;
   transition: background-color 0.2s ease;
+  align-self: center;
+  margin-top: auto;
 }
 
 .btn-valor:hover {
@@ -75,18 +109,57 @@
   color: #fff;
 }
 
-.linha-verde {
-  width: 60px;                
-  background-color: var(--cor-verde-medio);
-  border-radius: 50px;        
-  margin: 0.5rem auto 1.5rem; 
-}
-
 .linha-divisoria {
-  width: 100px;              
-  height: 5px;               
+  width: 100px;
+  height: 5px;
   background-color: var(--cor-verde-medio);
-  border-radius: 50px;        
-  margin: 0.5rem auto 1.5rem; 
+  border-radius: 50px;
+  margin: 0.5rem auto 1.5rem;
 }
 
+@media (max-width: 992px) {
+  .card-valor {
+    margin-bottom: 1.5rem;
+    padding: 1.5rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .valorizacao .row {
+    display: block;
+    }
+
+  .card-valor {
+    padding: 1.25rem;
+    min-height: auto;
+  }
+
+  .card-valor h3 {
+    font-size: 1.25rem;
+  }
+
+  .card-valor p {
+    font-size: 0.95rem;
+  }
+
+  .btn-valor {
+    width: 100%;
+    max-width: 280px;
+  }
+}
+
+.link-lei {
+  display: block;
+  text-align: center;
+  font-size: 0.9rem;
+  color: var(--cor-verde-escuro);
+  text-decoration: none;
+  margin: 2rem auto 1.5rem auto;
+  font-family: var(--fonte-auxiliar);
+  transition: color 0.2s ease, transform 0.2s ease;
+}
+
+.link-lei:hover {
+  color: var(--cor-verde-medio);
+  transform: translateY(-2px);
+}
