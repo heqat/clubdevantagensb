@@ -87,6 +87,31 @@ export default function EmpresasParticipantes() {
     instagram: "https://www.instagram.com/laciacdiagnosticos/",
     mapa: "https://maps.app.goo.gl/oUrLmYd2tN8Pe5cZ7",
     texto: "Serviços laboratoriais (análises clínicas, citologia, biopsia, teste paternidade, sexagem fetal, teste pezinho) - 10% desconto para pagamentos cartão crédito/débito e 30% desconto para pagamentos dinheiro ou pix; Serviço em estética (limpeza de pele) - 15% desconto para pagamento dinheiro ou pix."
+  },
+  {
+    nome: "Visual Ótica",
+    logo: "/visual-otica-logo.jpg",
+    whatsapp: "https://wa.me/558191530914",
+    instagram: "https://www.instagram.com/visualoticabezerros/",
+    mapa: "https://maps.app.goo.gl/jamoBNsuQx1wYrbD6",
+    texto: "Na compra do óculos completo (lentes e armação), desconto de 35% com pagamento via pix ou em espécie (dinheiro). Na compra do óculos completo (lentes e armação), desconto de 25% com pagamento parcelado no cartão de crédito"
+  },
+  {
+    nome: "Clinimais Diagnósticos",
+    logo: "/clinimais-diagnosticos-logo.jpeg",
+    whatsapp: "https://wa.me/558194895667",
+    instagram: "https://www.instagram.com/clinimaisdiagnosticos/",
+    mapa: "https://maps.app.goo.gl/t6ti72wNjbcrTKoD8",
+    texto: "Descontos em exames laboratoriais, exceto biópsias e exames toxicológicos para detran: 10% de desconto em pagamentos com o cartão de crédito, 20% de desconto em pagamentos via pix ou dinheiro."
+  },
+
+  {
+    nome: "Lizze",
+    logo: "/lizze-logo.jpeg",
+    whatsapp: "https://wa.me/558197148314",
+    instagram: "https://www.instagram.com/lizzeoficial/",
+    mapa: "https://maps.app.goo.gl/mDdXdn7gsVJosfx67",
+    texto: "Descontos em exames laboratoriais, exceto biópsias e exames toxicológicos para detran: 10% de desconto em pagamentos com o cartão de crédito, 20% de desconto em pagamentos via pix ou dinheiro."
   }
 ];
 

@@ -22,7 +22,7 @@ export default function Home() {
   <div
     className="hero-bg"
     style={{
-      backgroundImage: "url('/2.jpg')",
+      backgroundImage: "url('/3.jpg')",
       backgroundSize: "cover",
       backgroundPosition: "center",
     }}
